@@ -1,0 +1,123 @@
+.fa-paint-brush {
+    margin-right: 10px;
+    font-size: 30px;
+}
+
+.container-fluid
+{
+    background-color: rgb(255, 255, 255);
+    border: solid;
+}
+
+body{
+    background-color: #130f40;;
+}
+header{
+    margin-bottom: 10px;
+}
+.profile-container {
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-between;
+background-image: url("https://i.pinimg.com/originals/39/74/6e/39746eea29ef15a08a05e9365c2d6be4.jpg");
+background-size: cover;
+background-position: center center;
+padding: 50px;
+border-radius: 10px;
+box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.profile-image {
+height: 200px;
+width: 200px;
+border-radius: 50%;
+background-image: url("https://wallpapers.com/images/hd/cool-skull-profile-picture-j6r78po6xuuton85.jpg");
+background-size: cover;
+background-position: center center;
+margin-right: 50px;
+box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.profile-details {
+flex: 1;
+}
+
+.profile-details h1 {
+font-size: 50px;
+color: #fff;
+margin-bottom: 20px;
+}
+
+.profile-options {
+margin-top: 30px;
+}
+
+.profile-options button {
+margin-right: 20px;
+}
+.dropdown-toggle::after {
+display:none;
+}
+
+.dropdown-toggle {
+padding:0.5rem 0.8rem;
+border-color: transparent;
+}
+
+.fa-ellipsis-h {
+margin-right: 0.4rem;
+vertical-align: middle;
+}
+.dropdown{
+position: relative;
+top: 140px;
+left: 30px;
+}
+.dropdown-menu {
+padding: 0.5rem 0;
+}
+
+.dropdown-item {
+padding: 0.3rem 1.5rem;
+}
+#dropdownMenuButton{
+border-color: transparent;
+background: none;
+}
+
+.gallery-container {
+margin: 0 auto;
+max-width: 800px;
+padding: 20px;
+}
+
+.gallery {
+display: flex;
+flex-wrap: wrap;
+}
+
+.gallery img {
+height: 150px;
+margin: 5px;
+object-fit: cover;
+width: 150px;
+}
+
+.add-photo {
+display: flex;
+flex-direction: column;
+margin-top: 20px;
+}
+
+.add-photo button {
+background-color: #008CBA;
+border: none;
+color: white;
+cursor: pointer;
+padding: 10px;
+}
+
+.add-photo button:hover {
+background-color: #006080;
+}

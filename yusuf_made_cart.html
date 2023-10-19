@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>View Cart</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<!-- Custom CSS -->
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			background-color: #f4f4f4;
+		}
+		h1 {
+			text-align: center;
+			margin-top: 30px;
+		}
+		.container {
+			background-color: #fff;
+			padding: 50px;
+			margin-top: 30px;
+		}
+		table {
+			width: 100%;
+			margin-top: 30px;
+		}
+		th, td {
+			padding: 12px;
+			text-align: left;
+			border-bottom: 1px solid #ddd;
+		}
+		.total {
+			font-weight: bold;
+			text-align: right;
+		}
+		.item-count {
+			background-color: #007bff;
+			color: #fff;
+			border-radius: 50%;
+			padding: 5px 10px;
+			position: absolute;
+			top: 5px;
+			right: 5px;
+			font-size: 12px;
+		}
+		.item-image {
+			max-height: 100px;
+			max-width: 100px;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<h1>View Cart</h1>
+		<div class="item-count">2</div>
+		<table>
+			<thead>
+				<tr>
+					<th>Item</th>
+					<th>Image</th>
+					<th>Price</th>
+					
+					<th>Subtotal</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Product 1</td>
+					<td><img class="item-image" src="https://via.placeholder.com/100x100"></td>
+					<td>$10.00</td>					
+					<td>$10.00</td>
+				</tr>
+				<tr>
+					<td>Product 2</td>
+					<td><img class="item-image" src="https://via.placeholder.com/100x100"></td>
+					<td>$20.00</td>					
+					<td>$20.00</td>
+				</tr>
+			</tbody>
+			<tfoot>
+				<tr>
+					<td colspan="3" class="total">Total</td>
+					<td>$30.00</td>
+				</tr>
+			</tfoot>
+		</table>
+	</div>
+	<!-- Bootstrap JavaScript -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
+
+
+
+
+
